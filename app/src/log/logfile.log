@@ -1,0 +1,13 @@
+2023-06-08 19:41:39,412 - INFO - Generating fixed width file
+2023-06-08 19:41:39,412 - INFO - Load the spec file to retrieve parameters for Fixed width file
+2023-06-08 19:41:39,711 - INFO - Sample data preparation using faker as per the offset (length of the column)
+2023-06-08 19:41:39,711 - INFO - Creating the fixed width file with the header and the sample data
+2023-06-08 19:41:39,711 - ERROR - An error occurred: [Errno 2] No such file or directory: 'C:\\Users\\Yoga\\OneDrive\\Documents\\GitHub\\latitude\\app\\src\\..\\data\\fixed_width_file.txt'
+2023-06-08 19:44:39,764 - INFO - Generating fixed width file
+2023-06-08 19:44:39,764 - INFO - Load the spec file to retrieve parameters for Fixed width file
+2023-06-08 19:44:40,061 - INFO - Sample data preparation using faker as per the offset (length of the column)
+2023-06-08 19:44:40,061 - INFO - Creating the fixed width file with the header and the sample data
+2023-06-08 19:44:40,061 - INFO - Generating CSV file from fixed width file
+2023-06-08 19:44:40,061 - INFO - Load the spec file to retrieve parameters for CSV
+2023-06-08 19:44:40,061 - INFO - Parsing the Fixed width file in each line as per the column length (offsets)
+2023-06-08 19:44:40,061 - INFO - Load the parsed data into a csv delimited file

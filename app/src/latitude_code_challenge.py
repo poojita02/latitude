@@ -92,6 +92,9 @@ if __name__ == '__main__':
         parameters = json.load(param_file)
 
     parent_dir = os.path.join(script_dir, '..')
+    data_directory = os.path.join(parent_dir, 'data')
+    os.makedirs(data_directory, exist_ok=True)  # Create the data directory if it doesn't exist
+
     fixed_width_file = os.path.join(parent_dir, 'data', parameters['FixedWidthFile'])
     csv_file = os.path.join(parent_dir, 'data', parameters['CSVFile'])
     spec_file = os.path.join(script_dir, parameters['SpecFile'])
