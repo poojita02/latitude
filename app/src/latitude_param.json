@@ -1,0 +1,5 @@
+{
+  "FixedWidthFile": "fixed_width_file.txt",
+  "CSVFile": "csv_file.csv",
+  "SpecFile": "spec.json"
+}
