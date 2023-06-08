@@ -1,2 +1,1 @@
 faker==8.14.0
-unittest
