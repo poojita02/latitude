@@ -40,7 +40,17 @@ and then Fixed width file is parsed and converted into a CSV file.
 3. The generated fixed-width file will be saved in the `data` directory with the name `fixed_width_file.txt`.
 
 4. You can modify the input specification file (`spec.json`) to change the column names, offsets, encoding, or other parameters.
--------------------------------------------------------------------------------------------------------------------------
+
+## Logging
+1. The script utilizes logging to provide information about the execution process and any errors that occur. The log messages are saved in a log file named logfile.log located in the log directory.
+
+2. To view the log file, navigate to the log directory and open logfile.log:
+
+    ```bash
+     cd app/log
+     ```
+3. The log file contains information such as the generation of the fixed-width file, the conversion of the fixed-width file to CSV, and any errors that occurred during the process.
+
 ## Unit Testing:
 1. To run the unit tests, navigate to the app/unittesting directory:
    ```bash
@@ -51,7 +61,7 @@ and then Fixed width file is parsed and converted into a CSV file.
      python unit_test.py
      ```
    The test results will be displayed in the console, indicating whether the tests passed or failed.
--------------------------------------------------------------------------------------------------------------------------
+
 ## Build the Docker image:
 
 1. Build the docker image. Before run the command, make sure we are in the "app" directory
