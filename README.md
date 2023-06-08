@@ -38,8 +38,9 @@ and then Fixed width file is parsed and converted into a CSV file.
    ```
 
 3. The generated fixed-width file will be saved in the `data` directory with the name `fixed_width_file.txt`.
-
-4. You can modify the input specification file (`spec.json`) to change the column names, offsets, encoding, or other parameters.
+4. CSV file will also be generated and saved in the same data directory. 
+   Note: Data directory will be created if it doesn't exist. 
+5. You can modify the input specification file (`spec.json`) to change the column names, offsets, encoding, or other parameters.
 
 ## Logging
 1. The script utilizes logging to provide information about the execution process and any errors that occur. The log messages are saved in a log file named logfile.log located in the log directory.
