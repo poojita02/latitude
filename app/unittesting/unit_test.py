@@ -20,12 +20,7 @@ class TestLatitudeCodeChallenge(unittest.TestCase):
         self.fixed_width_file = os.path.join(self.test_data_dir, 'fixed_width_file.txt')
         self.csv_file = os.path.join(self.test_data_dir, 'csv_file.csv')
 
-        print(self.script_dir)
-        print(self.test_data_dir)
-        print(self.src_dir)
-        print(self.spec_file)
-        print(self.fixed_width_file)
-        print(self.csv_file)
+
 
     def tearDown(self):
         pass
@@ -71,11 +66,7 @@ class TestLatitudeCodeChallenge(unittest.TestCase):
         fw_content = self.test_generate_fixed_width_file()
         csv_content = self.test_generate_csv_from_fixed_width()
 
-        # Print the content of the files for debugging
-        print("Fixed Width File Content:")
-        print(fw_content)
-        print("CSV File Content:")
-        print(csv_content)
+
 
         # Compare line by line
         self.assertListEqual(fw_content, csv_content)
