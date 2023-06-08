@@ -1,0 +1,22 @@
+# Base image
+FROM python:3.9
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the Python requirements file
+COPY requirements.txt .
+
+# Install Python dependencies
+RUN pip install -r requirements.txt
+RUN mkdir -p /app/data
+RUN mkdir -p /app/src
+# Copy the Python file
+COPY src/latitude_code_challenge.py /app/src
+COPY src/latitude_param.json /app/src
+COPY src/spec.json /app/src
+
+
+
+# Run the Python script
+CMD ["python", "/app/src/latitude_code_challenge.py"]
