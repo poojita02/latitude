@@ -12,7 +12,7 @@ and then Fixed width file is parsed and converted into a CSV file.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/latitude.git
+   git clone https://github.com/poojita02/latitude
    ```
 
 2. Navigate to the project directory:
